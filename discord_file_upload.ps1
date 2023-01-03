@@ -7,6 +7,8 @@ function Upload-Discord {
         [parameter(Position=1,Mandatory=$False)]
         [string]$text 
     )
+    
+    $hookurl = "$hookurl"
         
     $Body = @{
       'username' = $env:username
